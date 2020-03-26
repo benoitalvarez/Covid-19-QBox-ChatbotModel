@@ -1,7 +1,8 @@
 # Covid-19-QBox-ChatbotModel
 
 <h1>Introduction</h1>
-<p>Free chatbot model for typical questions about the COVID-19 virus to help your users and business that can be added to your current chatbot</p>
+<p>Free chatbot model for typical questions about the COVID-19 virus to help your users and business. You can simply add it to your current chatbot training data</p>
+<p>We advice you to check that this new set of Intents/Entities/Utterances do not conflited with your current model. Feel free to check it for free on <h link="https://QBox.ai" target="blank">Qbox.ai</h></P>
 <p>Available for Microsoft LUIS, Microsoft QnA Maker, Google Dialogflow and IBM Watson Assistant</P>
 <p>The coronavirus pandemic will of course be a challenging time for business. Staff availability and other resources will be reduced due to both time taken off for illness and the day-to-day limitations of self-isolation. Many business operations will simply not be possible, and at the same time there’s likely to be an increase in customer concerns and queries just when there isn’t the bandwidth to handle them all.</p>
 <p>A chatbot service can help alleviate the pressure on staff by filtering many of the common queries that are received every day, so we’ve taken the time to build a chatbot focussed on queries related to the COVID-19 outbreak and its likely impacts on a business. </p>
