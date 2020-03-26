@@ -1,11 +1,11 @@
 # Covid-19-QBox-ChatbotModel
 
 <h1>Introduction</h1>
-<p>Free chatbot model for typical questions about the COVID-19 virus to help your users and business. You can simply add it to your current chatbot training data</p>
-<p>We advice you to check that this new set of Intents/Entities/Utterances do not conflited with your current model. Feel free to check it for free on <a href="https://QBox.ai" target="blank">Qbox.ai</a></P>
-<p>Available for Microsoft LUIS, Microsoft QnA Maker, Google Dialogflow and IBM Watson Assistant</P>
+<p>The Covid-19-QBox-Chatbot Model is free pre-compiled chatbot model that addresses typical questions about the COVID-19 virus to help you handle high volumes of questions from your customers, partners and staff. You simply add it to your current chatbot training data.</p>
+<p>We advise you to check that this new set of Intents, Entities & Utterances do not conflict with your current model. To check this out for free, visit <a href="https://QBox.ai" target="blank">Qbox.ai</a></P>
+<p>Available for Microsoft LUIS, Microsoft QnA Maker, Google Dialogflow, IBM Watson Assistant and Rasa</P>
 
-<p>with this add on model, your chatbot service can help alleviate the pressure on staff and user by filtering many of the common queries that are received every day, so we’ve taken the time to build a chatbot focussed on queries related to the COVID-19 outbreak and its likely impacts on a business. </p>
+<p>With this supplementary model, your chatbot service will help alleviate pressure on your front line staff by filtering many of the common queries that are being received day each day as this crisis escalates. To help we’ve built a chatbot focussed on queries related to the COVID-19 outbreak and its likely impact on a business.</p>
 
 <h1>How the model is structured</h1>
 
@@ -1033,38 +1033,10 @@
 
 </div>
 
-<p class=MsoNormal>The above table gives the full list of “intents” (answers)
-to user queries that the model has been trained on. I primarily covered general
-FAQ-type queries to make it more widely applicable, but also included several
-business-related queries. The choice was made to avoid more sensitive topics
-such as customer complaints or addressing mental health during self-isolation,
-since those issues should be handled by a human-in-the-loop, rather than a
-chatbot.</p>
+<p class=MsoNormal>The above table shows the full list of “intents” (answers) to queries that the model has been trained to address. It primarily covers general FAQ-type queries to make it more widely applicable, but also includes several business-related queries. The model avoids more sensitive topics such as customer complaints or addressing mental health issues during self-isolation, since those issues should be handled by a trained professional, rather than a chatbot.</p>
 
-<p class=MsoNormal>I should note that this model is only for returning intents
-– the content of the answers themselves would be managed elsewhere. We did not
-want to include typical answers as the situation is fluid, with government and
-health advice varying by day and location. Businesses can provide their own
-tailored answers to the “company_” intents as well.</p>
+<p class=MsoNormal>Please note, this model is only for returning intents – the content of the answers themselves should be managed elsewhere. We did not want to include these type of answers, as the situation is still fluid, with Government and health advice is varying by day and country. Businesses can provide their own tailored answers to the “company_” intents as well.</p>
 
-<p class=MsoNormal>I also included one “small-talk” intent for the purpose of
-making it clear this is a chatbot and offering the user the chance to speak
-with a human. It’s important to be honest about the nature of your chatbot, and
-to offer speaking with a person as an alternative. There are many <span
-class=SpellE>api</span> services and other open source-models if you wish to
-expand the small-talk intents further, but I opted to keep this limited due to
-the serious nature of the subject matter.</p>
+<p class=MsoNormal>Also included is a “small-talk” intent for the purpose of making it clear this is a chatbot that offers the user the chance to speak with a human. It’s important to be honest about the nature of your chatbot, and to offer speaking with a trained professional as an alternative. There are many API services and other open source-models, should you wish to expand the small-talk intents further, but I opted to keep this limited due to the serious nature of the subject matter.</p>
 
-<p class=MsoNormal>Entities, although not available in all NLP engines, can be
-useful for both addressing synonyms more easily (a user might say “what is
-Corona?” or “what is COVID-19?”, and for creating answer variations. You could,
-for example, create a specific answer for <span class=SpellE><i><span
-style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
-mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
-mso-fareast-language:EN-GB'>faq_vulnerable</span></i></span><i><span
-style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
-mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;color:black;
-mso-fareast-language:EN-GB'> </span></i><span style='mso-ascii-font-family:
-Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
-mso-bidi-font-family:Calibri;color:black;mso-fareast-language:EN-GB'>where a <i>pregnancy
-</i>entity is also detected – e.g. “I’m pregnant, am I at risk?”</span></p>
+<p class=MsoNormal>Entities, although not available in all NLP engines, can be useful for both addressing synonyms more easily (a user might say “what is Corona?” or “what is COVID-19?”, and for creating answer variants. You can for example, create a specific answer for faq_vulnerable where a pregnancy entity is also detected – e.g. “I’m pregnant, am I at risk?”</p>
