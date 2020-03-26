@@ -1040,3 +1040,5 @@
 <p class=MsoNormal>Also included is a “small-talk” intent for the purpose of making it clear this is a chatbot that offers the user the chance to speak with a human. It’s important to be honest about the nature of your chatbot, and to offer speaking with a trained professional as an alternative. There are many API services and other open source-models, should you wish to expand the small-talk intents further, but I opted to keep this limited due to the serious nature of the subject matter.</p>
 
 <p class=MsoNormal>Entities, although not available in all NLP engines, can be useful for both addressing synonyms more easily (a user might say “what is Corona?” or “what is COVID-19?”, and for creating answer variants. You can for example, create a specific answer for faq_vulnerable where a pregnancy entity is also detected – e.g. “I’m pregnant, am I at risk?”</p>
+
+<p>https://medium.com/qbox-nlp-performance-tooling/new-model-for-rapid-deployment-of-covid-19-trained-chatbots-8806fb94a8ff</p>
