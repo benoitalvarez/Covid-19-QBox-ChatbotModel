@@ -1,0 +1,3478 @@
+{
+  "name": "NLP Engine Comparison 1",
+  "created": "2020-03-25T16:54:15.6304176Z",
+  "updated": "2020-03-25T16:54:15.6304176Z",
+  "intents": [
+    {
+      "intent": "smalltalk_human",
+      "created": "2020-03-25T16:54:15.6304176Z",
+      "updated": "2020-03-25T16:54:15.6304176Z",
+      "examples": [
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "am a talking with a bot?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "am i speaking to a bot?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "am i talking to a bot?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "am i talking to a human?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "am i talking to a person?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "am i talking to a real person?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "am i talking to a robot?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are you a human?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are you a real person?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are you real?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can i contact a human being?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "i don't want to speak with a bot"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "i don't want to talk"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "i don't want to talk to a chatbot"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "i don't want to talk with a chatbot"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "i'd like to speak to a person"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is this a person?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is this a real person or a bot?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "who am i talking to?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "you real?"
+        }
+      ]
+    },
+    {
+      "intent": "faq_symptoms",
+      "created": "2020-03-25T16:54:15.6304176Z",
+      "updated": "2020-03-25T16:54:15.6304176Z",
+      "examples": [
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "am i going to die?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "am i going to need hospital treatment?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are aches a symptom?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are the symptoms serious?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can i still have it but have no symptoms?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can people die from contacting covid-19?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can people die from coronavirus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can there be complications from covid-19 symptoms?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can you be infected and not show any symptoms?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can you tell me what the symptoms are?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "could i be carrying coronavirus if i don't have symptoms?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "does everyone have symptoms?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how badly should i be coughing?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how can i identify the symptoms of corona?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how can i tell if i have corona virus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how do i know i have covid-19?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how do i know i might be a carrier?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how do i know i might have it?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how do i know if i have it?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how do i know if i need hospital treatment?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how do i know if i'm a carrier of covid-19?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how do i know if i've caught coronavirus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how high does my fever have to be for me to go to hospital?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how is your body affected by corona?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how long do i have to be sick for before i can go to a clinic?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how long should i have a fever for?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how severe do my symptoms have to be before i go to hospital?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "i'm coughing, what should i do?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is a symptom?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is coughing a symptom of the disease?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is joint pain a symptom?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "should i go to a health centre if i have symptoms?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what are the signs and symptoms?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what are the signs of corona?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what are the signs of covid-19?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what are the signs?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what are the symptoms?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what counts as a high temperature?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what do aches and pains mean?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what do the symptoms look like?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what does asymptomatic mean?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what does dry cough mean?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what does having corona feel like?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what does having corona virus feel like?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what does having the virus feel like?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what does it mean if i'm coughing?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what does it mean to be asymptomatic?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what does persistent cough mean?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what does the virus do to your body?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is a dry cough?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is a fever?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is an asymptomatic carrier?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is different about a dry cough?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what should i do if i think i have it?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what should i do if i think i might have corona virus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what signs of covid-19 should i look for?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what temperature is a fever?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "when do i need to go to a clinic?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "when is a cough persistent?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "when should i go to hospital?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "when should i go to the emergency room?"
+        }
+      ]
+    },
+    {
+      "intent": "faq_vaccine",
+      "created": "2020-03-25T16:54:15.6304176Z",
+      "updated": "2020-03-25T16:54:15.6304176Z",
+      "examples": [
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "am i immune once i've been vaccinated?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are inoculations available?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are they researching vaccines?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are they working on vaccines?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can covid be cured?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can i be vaccinated?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can inoculation protect you from coronavirus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can researching make a vaccine?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can vaccines protect you from corona?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can you be inoculated against the virus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can you be inoculated?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can you be vaccinated to protect you from covid-19?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can you be vaccinated?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can you get vaccinated?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how can i be vaccinated?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how does vaccine research work"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how long will it take to develop a vaccine?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how long will it take to develop inoculation?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how long will it take to research a vaccine?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is a vaccine being developed?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is there a cure?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is there a vaccine against coronavirus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is there si cure for covid-19?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what does herd immunity mean?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is herd immunity?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is inoculation?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "when can we expected a vaccine?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "when will inoculations be available?"
+        }
+      ]
+    },
+    {
+      "intent": "faq_vulnerable",
+      "created": "2020-03-25T16:54:15.6304176Z",
+      "updated": "2020-03-25T16:54:15.6304176Z",
+      "examples": [
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "am i more vulnerable if i have cancer?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are children at risk of coronavirus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are children vulnerable to corona virus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are my dogs at risk?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can cats get the virus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can children get coronavirus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can children get it?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can dogs get the virus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can my baby get coronavirus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can my cat get it?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can pets get the virus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can your age affect the severity of the illness?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can your age affect the severity?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "does my age matter?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "does respiratory disease increase my risk?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how many years old are those at risk?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how old are those likely to have a severe reaction?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how what age group is most at risk?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "i am pregnant, am i at a higher risk?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "i am years old"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "i am years old, am i at risk?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "i have asthma, am i more at risk?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "i'm concerned about my parents"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "i'm pregnant, am i at a higher risk?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "i'm worried about my grand parents"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "should i be worried about my parents?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "should i be worried if i'm expecting?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what age group is most vulnerable?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what age range is most at risk?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what are the high risk groups?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what are ventilators for?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what groups are vulnerable?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what if i'm high risk?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what if i'm years old?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what if someone is diabetic?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what people are most likely to experience severe symptoms?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "who is most at risk of severe symptoms?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "who is most likely to need hospital treatment?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "who is most likely to need to go to the hospital?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "who might need intensive care?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "who might need ventilators?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "who should avoid contact during the outbreak?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "who should avoid contact?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "who should i avoid contact with during the outbreak?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "why are older age people more at risk from this illness?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "why are symptoms more severe depending on how old i am?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "why are symptoms more severe in some people?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "why do some people need intensive care?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "why do we need ventilators?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "why does age affect the severity?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "why does my age matter?"
+        }
+      ]
+    },
+    {
+      "intent": "company_open",
+      "created": "2020-03-25T16:54:15.6304176Z",
+      "updated": "2020-03-25T16:54:15.6304176Z",
+      "examples": [
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "any changes to your services?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are there any changes to your operations?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are there any changes to your services due to coronavirus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are there any changes to your services?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are you open at different times?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are you open the same hours?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are you operating as normal?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are you operating at reduced capacity?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are you still open?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are you still operating as usual?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are you still operating at full capacity?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are your offices closed?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are your services still available?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can i expect coronavirus to cause changes to your service?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can i expected business as usual?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can i expected normal service?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can i still book a meeting?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can i use your service with online chat?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can i use your service with video chat?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "do we have to meet virtually?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "have you closed your offices due to corona virus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "have you closed your offices?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how are your operating during the covid-19 pandemic?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how can i arrange a meeting?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how can we meet virtually?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is it business as usual?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is the company currently active?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is the company currently operating?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is the office still open?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is video chat available?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is your office still open?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "will the office still be open?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "will you continue operating as usual?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "will you continue operating?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "will you continue to work as usual during coronavirus?"
+        }
+      ]
+    },
+    {
+      "intent": "company_wfh",
+      "created": "2020-03-25T16:54:15.6304176Z",
+      "updated": "2020-03-25T16:54:15.6304176Z",
+      "examples": [
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are people working from home?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are there any key workers?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are you in the office?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are your people working from home right now?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are your staff in the office right now?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are your staff in the office?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are your staff still working?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are your staff working from home?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can i contact your staff at the office?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can i contact your staff right now?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can you work from home if needed?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "do you have any key workers?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "do you have people still working?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "do you have the resources for working from home?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "do you have the resources to work from home?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "do you still have key workers?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "do your staff have the resources to work from home?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "does your company have the resources to work from home?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how can i contact your staff?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is anyone still working?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "where are your staff?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "who is available for remote meetings?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "who is available for virtual meetings?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "who is available to speak to while your office is closed?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "who is available while staff are working from home?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "who is available while working from home?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "who is still working?"
+        }
+      ]
+    },
+    {
+      "intent": "faq_testing",
+      "created": "2020-03-25T16:54:15.6304176Z",
+      "updated": "2020-03-25T16:54:15.6304176Z",
+      "examples": [
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are tests available?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are there tests to detect corona?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can i have a test even if i don't have symptoms?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can i have a test if i think i have coronavirus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can i have a test?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how are they testing people for covid19?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how can i get tested?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how do they test for covid-19?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how do they test someone for covid-19?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how does testing for corona work?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how does testing work?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "i think i have coronavirus, should i get a test?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "i think i've got it, should i get a test?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is there any testing going on?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "when should i get a test?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "when will testing be available?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "where are test available?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "who are they testing for corona virus right now?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "who can get tested?"
+        }
+      ]
+    },
+    {
+      "intent": "faq_supplies",
+      "created": "2020-03-25T16:54:15.6304176Z",
+      "updated": "2020-03-25T16:54:15.6304176Z",
+      "examples": [
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are the supermarkets going to run out of food?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are the supermarkets going to run out of supplies?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can i go to the shops for"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can i go to the shops for that?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "could there be shortages?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "do i need to buy anything?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "do i need to buy more"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "do i need to buy more toilet paper"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "do people need to stockpile?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "i need to buy"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "i need to buy can i go to the shops for that?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "i need to buy more"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "i need to buy more medicine"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "i need to buy more soap"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "i'm worried about supply chains"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "should i stockpile?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "should we be worried about food shortages?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what extra supplies to do i need"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what food should i be stocking up?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what if i need more soap?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what if i run out of soap and need to buy more?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is panic buying"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what kind of food should i buy?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what should i do if the supermarkets are empty?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what should i do if there's a shortage?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what should i stock up on?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what supplies might there be a shortage of?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what supplies should i stock up on?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what things should i buy"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what type of food is good for stocking up?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "why are people panic-buying?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "will shortages be a problem?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "will supply chains be affected"
+        }
+      ]
+    },
+    {
+      "intent": "faq_flu",
+      "created": "2020-03-25T16:54:15.6304176Z",
+      "updated": "2020-03-25T16:54:15.6304176Z",
+      "examples": [
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are the symptoms like influenza?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how does corona virus compare with a flu outbreak?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how does covid-19 compare with influenza?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how does it compare to a cold?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how is corona different from the flu?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how is covid-19 different from the flu"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how is this different from the flu"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is corona a flu?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is corona the same as swine flu?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is coronavirus just a bad cold?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is coronavirus like influenza?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is covid a kind of influenza?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is covid19 a kind of influenza?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is covid-19 like swine flu?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is it like a cold"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is the virus a kind of influenza?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is this caused by h1n1?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is this like the h1n1 outbreak?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is this like the spanish flu?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is this similar to h1n1?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is this similar to swine flu?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "isn't it just a cold?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "isn't it just a really bad cold?"
+        }
+      ]
+    },
+    {
+      "intent": "faq_howmany",
+      "created": "2020-03-25T16:54:15.6304176Z",
+      "updated": "2020-03-25T16:54:15.6304176Z",
+      "examples": [
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are there a lot of cases right now?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "does the country have a lot of cases?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "does the have a lot of cases?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "have many people died due to covid-19?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how many cases have there been"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how many cases of corona infection have there been?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how many deaths have there been?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how many fatalities have there been?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how many have died due to coronavirus"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how many have tested positive?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how many people have been infected"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how many people have tested positive"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "number of cases"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is the fatality number?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is the fatality rate?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is the number of cases"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is the number of deaths"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is the number of fatalities?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is the number of infections?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what number have tested positive?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what number of people have been infected?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what number of people have tested positive?"
+        }
+      ]
+    },
+    {
+      "intent": "company_mitigation",
+      "created": "2020-03-25T16:54:15.6304176Z",
+      "updated": "2020-03-25T16:54:15.6304176Z",
+      "examples": [
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are you keeping your workers safe?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are you paying your staff even if they are unwell?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "do you have a business continuity plan?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "do you have a disaster recovery plan?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "do you have a plan for economic recovery?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how are you going to cope with coronavirus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how are you going to cope with the pandemic?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how are you keeping staff safe?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how are you protecting your staff?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how are you protecting your workers?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how does your business plan to recover?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how is the company going to cope with covid19?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how will your business recover?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is there a continuity plan for coronavirus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is there a disaster recovery plan?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what are you doing for business continuity?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what are you doing if people are self-isolating?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what are you doing if staff are sick?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what are you doing if staff are unwell?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what are you doing to cope with covid-19?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what are you doing to manage corona at your company?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what are your mitigation strategies for coronavirus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what are your mitigation strategies?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what are your strategies for dealing with coronavirus as a company?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what are your strategies for the covid-19 outbreak?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what will do do if staff are sick?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what will you do if staff are unwell?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what will you do so the company can recover more quickly?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "will you business recover?"
+        }
+      ]
+    },
+    {
+      "intent": "company_deliveries",
+      "created": "2020-03-25T16:54:15.6304176Z",
+      "updated": "2020-03-25T16:54:15.6304176Z",
+      "examples": [
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are you still able to deliver goods?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are you still able to deliver products by post during the pandemic?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "are you still doing deliveries during the outbreak?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can i order online during the covid-19 outbreak?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can i order online during the outbreak?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can i order your items online?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can i order your products online?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can i receive deliveries without contact?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can you deliver with zero contact?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can you do contact-free deliveries?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can you do deliveries by zero-contact post?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can you send your products in the post?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can you sent items by post?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can you still deliver goods?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "do you provide deliveries to people who are isolating?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "do you provide deliveries?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how does covid-19 affect home delivery services?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how will coronavirus affect your home delivery?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is corona virus affecting your delivery channels?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "will covid affect your home delivery services?"
+        }
+      ]
+    },
+    {
+      "intent": "faq_masks",
+      "created": "2020-03-25T16:54:15.6304176Z",
+      "updated": "2020-03-25T16:54:15.6304176Z",
+      "examples": [
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can a mask protect me?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can covering my face protect me?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "do i need to cover my face?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "do i need to start covering my face?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "do mask help?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "do masks help stop the spread?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "do masks help to stop covid 19?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "do masks help to stop the spread of corona?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how can a mask help?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "should i cover my face with a mask?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "should i cover my face?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is the right kind of mask to use?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what kind of mask should i use?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what type of face-mask do i need?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what type of mask should i use?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "who needs to use face masks?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "why are people using face masks?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "why is everyone wearing face-masks?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "will a mask protect me from the virus"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "will it help to cover my face?"
+        }
+      ]
+    },
+    {
+      "intent": "faq_timescale",
+      "created": "2020-03-25T16:54:15.6304176Z",
+      "updated": "2020-03-25T16:54:15.6304176Z",
+      "examples": [
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can a virus change over time?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can covid-19 mutate over time?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "could coronavirus come back in the winter?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "could covid19 return in the autumn?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "could this still be going on next year?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how does a pandemic progress?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how does a viral outbreak progress?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how does an outbreak progress?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how long does a pandemic last?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how long does it take for a pandemic to end?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how long has the pandemic been going on"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how long has this been going on for?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how long will a pandemic last?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how long will the be a pandemic?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how long will the coronavirus outbreak last?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how long will this outbreak last?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how many months can we expect this to last?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how many months has coronavirus been going on for?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how many months will this continue?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how many months will this pandemic last?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how will covid-19 progress over time?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how will the virus change over time?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how will the virus mutate?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how will things have changes in a year?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is a virus better in summer?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is corona worse in winter?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what will be happening in a months time"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what will be happening in a week"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what will happen next year?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "when can we go back to normal?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "when will life go back to normal?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "when will things go back to normal?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "when will this be over?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "will corona ever go away?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "will it get worse again in the autumn?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "will the outbreak be over soon?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "will the pandemic last years?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "will the situation change in a few weeks?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "will the situation have changed in a month?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "will the virus go away?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "will things be different in a month?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "will things be different next week?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "will things improve in the spring?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "will things improve in the summer?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "will this continue into autumn?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "will this continue into next winter?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "will this continue into next year"
+        }
+      ]
+    },
+    {
+      "intent": "faq_spread",
+      "created": "2020-03-25T16:54:15.6304176Z",
+      "updated": "2020-03-25T16:54:15.6304176Z",
+      "examples": [
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can coronavirus spread by coughing?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can coronavirus survive on skin?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can covid get into my eyes?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can sneezing spread coronavirus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can you catch corona from an unclean surface?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can you catch coronavirus from another person?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can you catch the virus from dirty surfaces?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "could i pass corona virus onto someone else?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "does coughing spread corona?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "does coughing spread covid-19?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how can i protect myself?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how contagious is it?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how did corona become so widespread?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how did it become so widespread?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how do i catch corona?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how do viruses become widespread?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how do we stop people getting coronavirus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how do we stop people getting it?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how do we stop people getting sick?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how do you catch coronavirus"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how do you catch it?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how does covid pass from person to person?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how does covid spread from person to person?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how does covid-19 spread between between?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how does covid-19 spread from one person to another?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how does covid-19 spread?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how does the virus spread"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how long can the virus remain on surfaces?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how long does coronavirus stay on surfaces?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how long does it stay on skin?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how long does the virus stay on your hands face?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how long does the virus stay on your hands?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how would i catch the virus from someone else?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "i to avoid getting covid, what should i do?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is corona virus contagious?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what should i do to avoid getting coronavirus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what should i do to protect myself from catching covid19?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what should i do to protect myself?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "why can't i touch my face with my hands?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "why do you have to clean surfaces?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "why is skin-on-skin contact to be avoided?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "why shouldn't i touch my eyes?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "why shouldn't i touch my face?"
+        }
+      ]
+    },
+    {
+      "intent": "faq_distancing",
+      "created": "2020-03-25T16:54:15.6304176Z",
+      "updated": "2020-03-25T16:54:15.6304176Z",
+      "examples": [
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can i go for a walk?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can i still go outside?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can i walk somewhere?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "do i have to avoid people?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "do i have to stay away from people?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "do i have to stay inside?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "for how long do i need to stay at home?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "for what reasons can i still go outside?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "for what reasons can i still travel?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how do i self isolate"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how do i socially distance"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how does quarantine work?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how long do i have to self-isolate for?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how long do i have to stay inside"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "should i stay away from people?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what amount of time do i have to self-isolate for?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what are the guidelines for social-distancing"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what do i have to self-isolate for?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what if i want to go for a walk"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is essential travel?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is quarantine?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is self-isolation"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is social distancing"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "when should i stay in isolation?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "who doesn't need to stay at home?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "who needs to stay at home?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "why do i have to stay inside?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "why does social distancing help?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "why should i isolate"
+        }
+      ]
+    },
+    {
+      "intent": "faq_handwashing",
+      "created": "2020-03-25T16:54:15.6304176Z",
+      "updated": "2020-03-25T16:54:15.6304176Z",
+      "examples": [
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can soap help keep the virus off my hands?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can soap help with corona virus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "do i need to use hand sanitiser?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how does hand-sanitiser work?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how does soap help keep the virus away?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how long should i hand-wash for?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how often should i wash my hands"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how should i wash my hands"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "should i use soap or hand sanitiser?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what amount of alcohol is needed in hand gel?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what are good methods for handwashing?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what are the handwashing techniques"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what are the hand-washing techniques?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what are the instructions for hand-washing"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what are the techniques for hand washing?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is important about hand-washing?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is the guidance for handwashing"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what strength percentage of alcohol is required for hand gel to work?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "when should i wash my hands"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "why do i need to use soap?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "why do i need to wash my hands"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "why does soap help with containing covid 19?"
+        }
+      ]
+    },
+    {
+      "intent": "faq_curve",
+      "created": "2020-03-25T16:54:15.6304176Z",
+      "updated": "2020-03-25T16:54:15.6304176Z",
+      "examples": [
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can we prevent spikes in the infection rate?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "can we reduce the number of cases?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how do we flatten the curve"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how do we prevent spikes in the number of infected people?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how do we reduce the number of cases?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how does health care capacity relate to the curve?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how does healthcare capacity relate to the curve"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how fast can it spread?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how fast is covid-19 spreading?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how quickly can it spread?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how quickly could corona virus spread?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how quickly is it spreading?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how quickly will it spread?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "reducing the frequency of cases"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "slow the rate of infection"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what are spikes"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what does a spike in cases look like?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what does it mean the flatten the curve"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what happens when there's a surge in cases?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what happens when you reduce the number of cases?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is a fast spread?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is a slow spread?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is flattening the curve"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is healthcare system capacity"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is infection rate"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is the curve of cases"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is the difference between a fast spread and a slow spread?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is the difference between and fast and slow pandemic?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "when do spikes in infection rate occur?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "why are there spikes in the frequency of cases"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "why do infections suddenly spike"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "why do you need to slow the infection"
+        }
+      ]
+    },
+    {
+      "intent": "faq_whatisit",
+      "created": "2020-03-25T16:54:15.6304176Z",
+      "updated": "2020-03-25T16:54:15.6304176Z",
+      "examples": [
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how are viruses different from bacteria?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how are viruses structured?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how do viruses behave?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how do viruses work?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how does a pandemic work?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how does an epidemic work?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how does covid work?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how is a virus structured?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "is covid-19 a virus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what are corona viruses?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what are viruses?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what do they mean by \"pandemic\""
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what do viruses look like?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what does \"pandemic\" mean?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what does a virus look like?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what does an outbreak mean?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what does covid mean?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what does covid stand for?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what does covid19 mean?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what does covid-19 mean?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what does covid19 stand for?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is a pandemic?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is a virus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is an epidemic?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is corona?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is covid-19"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is pandemic"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is the corona virus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is the difference between and epidemic and a pandemic?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is the full name of coronavirus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is the full name of covid-19?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is the full name of the virus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what is the structure of coronavirus"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what kind of disease is corona?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what kind of illness is corona virus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "why is it called corona virus?"
+        }
+      ]
+    },
+    {
+      "intent": "faq_origin",
+      "created": "2020-03-25T16:54:15.6304176Z",
+      "updated": "2020-03-25T16:54:15.6304176Z",
+      "examples": [
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how did it start?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how did the covid outbreak start?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "how did the outbreak start?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what caused corona virus?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what caused covid-19"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what caused covid-19 to happen?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "what caused the corona outbreak?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "when did it start?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "when did the outbreak start?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "when was corona virus detected?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "when was coronavirus identified?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "when was it detected?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "where did it come from?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "where did the coronavirus come from?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "where was the virus first detected?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "why did corona happen?"
+        },
+        {
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "text": "why did this happen?"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "corona",
+      "created": "2020-03-25T16:54:15.6304176Z",
+      "updated": "2020-03-25T16:54:15.6304176Z",
+      "fuzzy_match": false,
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "corona",
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "synonyms": [
+            "coronavirus",
+            "covid",
+            "covid-19",
+            "covid19",
+            "covid 19",
+            "virus",
+            "viral",
+            "pandemic",
+            "epidemic",
+            "outbreak",
+            "illness",
+            "disease"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "hospital",
+      "created": "2020-03-25T16:54:15.6304176Z",
+      "updated": "2020-03-25T16:54:15.6304176Z",
+      "fuzzy_match": false,
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "hospital",
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "synonyms": [
+            "health centre",
+            "infirmary",
+            "medical centre",
+            "medical institution",
+            "clinic",
+            "hospitals",
+            "health centres",
+            "infirmaries",
+            "medical centres",
+            "medical institutions",
+            "clinics",
+            "emergency room",
+            "emergency"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "risk_group",
+      "created": "2020-03-25T16:54:15.6304176Z",
+      "updated": "2020-03-25T16:54:15.6304176Z",
+      "fuzzy_match": false,
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "child",
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "synonyms": [
+            "kid",
+            "daughter",
+            "son",
+            "kids",
+            "children",
+            "baby",
+            "babies",
+            "daughters",
+            "sons"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pet",
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "synonyms": [
+            "cat",
+            "dog",
+            "rabbit",
+            "fish",
+            "hamster",
+            "rat",
+            "bird",
+            "guinea-pig",
+            "goldfish",
+            "chicken",
+            "cats",
+            "dogs",
+            "rabbits",
+            "rats",
+            "birds",
+            "guinea-pigs",
+            "chickens",
+            "pets"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "senior",
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "synonyms": [
+            "elderly",
+            "elder",
+            "older",
+            "retired",
+            "old",
+            "pensioners",
+            "oaps",
+            "parents",
+            "grandparents",
+            "pensioner",
+            "seniors",
+            "elders",
+            "oap",
+            "parent",
+            "grandparent",
+            "mother",
+            "father",
+            "grandmother",
+            "grandfather"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "illness",
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "synonyms": [
+            "asthma",
+            "diabetes",
+            "asthmatic",
+            "diabetic",
+            "hypertension",
+            "heart",
+            "heart disease",
+            "cardiovascular",
+            "cardiovascular disease",
+            "respiratory",
+            "respiratory disease",
+            "chronic",
+            "cancer",
+            "lung",
+            "lung disease",
+            "high blood pressure",
+            "blood pressure"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pregnancy",
+          "created": "2020-03-25T16:54:15.6304176Z",
+          "updated": "2020-03-25T16:54:15.6304176Z",
+          "synonyms": [
+            "pregnant",
+            "expecting",
+            "trimester",
+            "with child"
+          ]
+        }
+      ]
+    }
+  ],
+  "language": "en",
+  "description": "Generated by QBox",
+  "workspace_id": "a3b8407e-8027-48d6-b4a5-2399d82b7e3d",
+  "counterexamples": [
+    {
+      "text": "a wood chuck can't chuck any kind of wood"
+    },
+    {
+      "text": "a wood chuck can't chuck wood"
+    },
+    {
+      "text": "are you wearing anything?"
+    },
+    {
+      "text": "can i arrange a taxi"
+    },
+    {
+      "text": "can i book a taxi?"
+    },
+    {
+      "text": "can i order a pizza?"
+    },
+    {
+      "text": "give quiche a chance"
+    },
+    {
+      "text": "how much wood could a wood chuck chuck if a wood chuck would chuck wood?"
+    },
+    {
+      "text": "i am heavy weapons guy and this is my weapon"
+    },
+    {
+      "text": "i know kung-fu"
+    },
+    {
+      "text": "i need a taxi"
+    },
+    {
+      "text": "i want a pepperoni pizza"
+    },
+    {
+      "text": "i want to order a pizza"
+    },
+    {
+      "text": "i'd like a pizza please"
+    },
+    {
+      "text": "i'm all out of bubblegum"
+    },
+    {
+      "text": "i'm asking you to marry me"
+    },
+    {
+      "text": "it's an albany expression"
+    },
+    {
+      "text": "marry me"
+    },
+    {
+      "text": "now i have a machine gun ho-ho-ho!"
+    },
+    {
+      "text": "please marry me"
+    },
+    {
+      "text": "tell me what you're wearing?"
+    },
+    {
+      "text": "trial by stone!"
+    },
+    {
+      "text": "what are you wearing?"
+    },
+    {
+      "text": "will you marry me?"
+    },
+    {
+      "text": "you come to me on the day of my daughter's wedding"
+    },
+    {
+      "text": "you don't win friends with salad"
+    },
+    {
+      "text": "you're going to need a bigger boat"
+    }
+  ],
+  "learning_opt_out": false
+}

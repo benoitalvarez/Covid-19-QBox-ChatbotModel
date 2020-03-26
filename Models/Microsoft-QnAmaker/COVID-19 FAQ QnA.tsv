@@ -1,0 +1,695 @@
+Question	Answer	Source	Metadata	SuggestedQuestions	IsContextOnly	Prompts	QnaId
+a wood chuck can't chuck any kind of wood	None				false		0
+a wood chuck can't chuck wood	None				false		0
+are you wearing anything?	None				false		0
+can i arrange a taxi	None				false		0
+can i book a taxi?	None				false		0
+can i order a pizza?	None				false		0
+give quiche a chance	None				false		0
+how much wood could a wood chuck chuck if a wood chuck would chuck wood?	None				false		0
+i am heavy weapons guy and this is my weapon	None				false		0
+i know kung-fu	None				false		0
+i need a taxi	None				false		0
+i want a pepperoni pizza	None				false		0
+i want to order a pizza	None				false		0
+i'd like a pizza please	None				false		0
+i'm all out of bubblegum	None				false		0
+i'm asking you to marry me	None				false		0
+it's an albany expression	None				false		0
+marry me	None				false		0
+now i have a machine gun ho-ho-ho!	None				false		0
+please marry me	None				false		0
+tell me what you're wearing?	None				false		0
+trial by stone!	None				false		0
+what are you wearing?	None				false		0
+will you marry me?	None				false		0
+you come to me on the day of my daughter's wedding	None				false		0
+you don't win friends with salad	None				false		0
+you're going to need a bigger boat	None				false		0
+am a talking with a bot?	smalltalk_human				false		0
+am i speaking to a bot?	smalltalk_human				false		0
+am i talking to a bot?	smalltalk_human				false		0
+am i talking to a human?	smalltalk_human				false		0
+am i talking to a person?	smalltalk_human				false		0
+am i talking to a real person?	smalltalk_human				false		0
+am i talking to a robot?	smalltalk_human				false		0
+are you a human?	smalltalk_human				false		0
+are you a real person?	smalltalk_human				false		0
+are you real?	smalltalk_human				false		0
+can i contact a human being?	smalltalk_human				false		0
+i don't want to speak with a bot	smalltalk_human				false		0
+i don't want to talk	smalltalk_human				false		0
+i don't want to talk to a chatbot	smalltalk_human				false		0
+i don't want to talk with a chatbot	smalltalk_human				false		0
+i'd like to speak to a person	smalltalk_human				false		0
+is this a person?	smalltalk_human				false		0
+is this a real person or a bot?	smalltalk_human				false		0
+who am i talking to?	smalltalk_human				false		0
+you real?	smalltalk_human				false		0
+am i going to die?	faq_symptoms				false		0
+am i going to need hospital treatment?	faq_symptoms				false		0
+are aches a symptom?	faq_symptoms				false		0
+are the symptoms serious?	faq_symptoms				false		0
+can i still have it but have no symptoms?	faq_symptoms				false		0
+can people die from contacting covid-19?	faq_symptoms				false		0
+can people die from coronavirus?	faq_symptoms				false		0
+can there be complications from covid-19 symptoms?	faq_symptoms				false		0
+can you be infected and not show any symptoms?	faq_symptoms				false		0
+can you tell me what the symptoms are?	faq_symptoms				false		0
+could i be carrying coronavirus if i don't have symptoms?	faq_symptoms				false		0
+does everyone have symptoms?	faq_symptoms				false		0
+how badly should i be coughing?	faq_symptoms				false		0
+how can i identify the symptoms of corona?	faq_symptoms				false		0
+how can i tell if i have corona virus?	faq_symptoms				false		0
+how do i know i have covid-19?	faq_symptoms				false		0
+how do i know i might be a carrier?	faq_symptoms				false		0
+how do i know i might have it?	faq_symptoms				false		0
+how do i know if i have it?	faq_symptoms				false		0
+how do i know if i need hospital treatment?	faq_symptoms				false		0
+how do i know if i'm a carrier of covid-19?	faq_symptoms				false		0
+how do i know if i've caught coronavirus?	faq_symptoms				false		0
+how high does my fever have to be for me to go to hospital?	faq_symptoms				false		0
+how is your body affected by corona?	faq_symptoms				false		0
+how long do i have to be sick for before i can go to a clinic?	faq_symptoms				false		0
+how long should i have a fever for?	faq_symptoms				false		0
+how severe do my symptoms have to be before i go to hospital?	faq_symptoms				false		0
+i'm coughing, what should i do?	faq_symptoms				false		0
+is a symptom?	faq_symptoms				false		0
+is coughing a symptom of the disease?	faq_symptoms				false		0
+is joint pain a symptom?	faq_symptoms				false		0
+should i go to a health centre if i have symptoms?	faq_symptoms				false		0
+what are the signs and symptoms?	faq_symptoms				false		0
+what are the signs of corona?	faq_symptoms				false		0
+what are the signs of covid-19?	faq_symptoms				false		0
+what are the signs?	faq_symptoms				false		0
+what are the symptoms?	faq_symptoms				false		0
+what counts as a high temperature?	faq_symptoms				false		0
+what do aches and pains mean?	faq_symptoms				false		0
+what do the symptoms look like?	faq_symptoms				false		0
+what does asymptomatic mean?	faq_symptoms				false		0
+what does dry cough mean?	faq_symptoms				false		0
+what does having corona feel like?	faq_symptoms				false		0
+what does having corona virus feel like?	faq_symptoms				false		0
+what does having the virus feel like?	faq_symptoms				false		0
+what does it mean if i'm coughing?	faq_symptoms				false		0
+what does it mean to be asymptomatic?	faq_symptoms				false		0
+what does persistent cough mean?	faq_symptoms				false		0
+what does the virus do to your body?	faq_symptoms				false		0
+what is a dry cough?	faq_symptoms				false		0
+what is a fever?	faq_symptoms				false		0
+what is an asymptomatic carrier?	faq_symptoms				false		0
+what is different about a dry cough?	faq_symptoms				false		0
+what should i do if i think i have it?	faq_symptoms				false		0
+what should i do if i think i might have corona virus?	faq_symptoms				false		0
+what signs of covid-19 should i look for?	faq_symptoms				false		0
+what temperature is a fever?	faq_symptoms				false		0
+when do i need to go to a clinic?	faq_symptoms				false		0
+when is a cough persistent?	faq_symptoms				false		0
+when should i go to hospital?	faq_symptoms				false		0
+when should i go to the emergency room?	faq_symptoms				false		0
+am i immune once i've been vaccinated?	faq_vaccine				false		0
+are inoculations available?	faq_vaccine				false		0
+are they researching vaccines?	faq_vaccine				false		0
+are they working on vaccines?	faq_vaccine				false		0
+can covid be cured?	faq_vaccine				false		0
+can i be vaccinated?	faq_vaccine				false		0
+can inoculation protect you from coronavirus?	faq_vaccine				false		0
+can researching make a vaccine?	faq_vaccine				false		0
+can vaccines protect you from corona?	faq_vaccine				false		0
+can you be inoculated against the virus?	faq_vaccine				false		0
+can you be inoculated?	faq_vaccine				false		0
+can you be vaccinated to protect you from covid-19?	faq_vaccine				false		0
+can you be vaccinated?	faq_vaccine				false		0
+can you get vaccinated?	faq_vaccine				false		0
+how can i be vaccinated?	faq_vaccine				false		0
+how does vaccine research work	faq_vaccine				false		0
+how long will it take to develop a vaccine?	faq_vaccine				false		0
+how long will it take to develop inoculation?	faq_vaccine				false		0
+how long will it take to research a vaccine?	faq_vaccine				false		0
+is a vaccine being developed?	faq_vaccine				false		0
+is there a cure?	faq_vaccine				false		0
+is there a vaccine against coronavirus?	faq_vaccine				false		0
+is there si cure for covid-19?	faq_vaccine				false		0
+what does herd immunity mean?	faq_vaccine				false		0
+what is herd immunity?	faq_vaccine				false		0
+what is inoculation?	faq_vaccine				false		0
+when can we expected a vaccine?	faq_vaccine				false		0
+when will inoculations be available?	faq_vaccine				false		0
+am i more vulnerable if i have cancer?	faq_vulnerable				false		0
+are children at risk of coronavirus?	faq_vulnerable				false		0
+are children vulnerable to corona virus?	faq_vulnerable				false		0
+are my dogs at risk?	faq_vulnerable				false		0
+can cats get the virus?	faq_vulnerable				false		0
+can children get coronavirus?	faq_vulnerable				false		0
+can children get it?	faq_vulnerable				false		0
+can dogs get the virus?	faq_vulnerable				false		0
+can my baby get coronavirus?	faq_vulnerable				false		0
+can my cat get it?	faq_vulnerable				false		0
+can pets get the virus?	faq_vulnerable				false		0
+can your age affect the severity of the illness?	faq_vulnerable				false		0
+can your age affect the severity?	faq_vulnerable				false		0
+does my age matter?	faq_vulnerable				false		0
+does respiratory disease increase my risk?	faq_vulnerable				false		0
+how many years old are those at risk?	faq_vulnerable				false		0
+how old are those likely to have a severe reaction?	faq_vulnerable				false		0
+how what age group is most at risk?	faq_vulnerable				false		0
+i am pregnant, am i at a higher risk?	faq_vulnerable				false		0
+i am years old	faq_vulnerable				false		0
+i am years old, am i at risk?	faq_vulnerable				false		0
+i have asthma, am i more at risk?	faq_vulnerable				false		0
+i'm concerned about my parents	faq_vulnerable				false		0
+i'm pregnant, am i at a higher risk?	faq_vulnerable				false		0
+i'm worried about my grand parents	faq_vulnerable				false		0
+should i be worried about my parents?	faq_vulnerable				false		0
+should i be worried if i'm expecting?	faq_vulnerable				false		0
+what age group is most vulnerable?	faq_vulnerable				false		0
+what age range is most at risk?	faq_vulnerable				false		0
+what are the high risk groups?	faq_vulnerable				false		0
+what are ventilators for?	faq_vulnerable				false		0
+what groups are vulnerable?	faq_vulnerable				false		0
+what if i'm high risk?	faq_vulnerable				false		0
+what if i'm years old?	faq_vulnerable				false		0
+what if someone is diabetic?	faq_vulnerable				false		0
+what people are most likely to experience severe symptoms?	faq_vulnerable				false		0
+who is most at risk of severe symptoms?	faq_vulnerable				false		0
+who is most likely to need hospital treatment?	faq_vulnerable				false		0
+who is most likely to need to go to the hospital?	faq_vulnerable				false		0
+who might need intensive care?	faq_vulnerable				false		0
+who might need ventilators?	faq_vulnerable				false		0
+who should avoid contact during the outbreak?	faq_vulnerable				false		0
+who should avoid contact?	faq_vulnerable				false		0
+who should i avoid contact with during the outbreak?	faq_vulnerable				false		0
+why are older age people more at risk from this illness?	faq_vulnerable				false		0
+why are symptoms more severe depending on how old i am?	faq_vulnerable				false		0
+why are symptoms more severe in some people?	faq_vulnerable				false		0
+why do some people need intensive care?	faq_vulnerable				false		0
+why do we need ventilators?	faq_vulnerable				false		0
+why does age affect the severity?	faq_vulnerable				false		0
+why does my age matter?	faq_vulnerable				false		0
+any changes to your services?	company_open				false		0
+are there any changes to your operations?	company_open				false		0
+are there any changes to your services due to coronavirus?	company_open				false		0
+are there any changes to your services?	company_open				false		0
+are you open at different times?	company_open				false		0
+are you open the same hours?	company_open				false		0
+are you operating as normal?	company_open				false		0
+are you operating at reduced capacity?	company_open				false		0
+are you still open?	company_open				false		0
+are you still operating as usual?	company_open				false		0
+are you still operating at full capacity?	company_open				false		0
+are your offices closed?	company_open				false		0
+are your services still available?	company_open				false		0
+can i expect coronavirus to cause changes to your service?	company_open				false		0
+can i expected business as usual?	company_open				false		0
+can i expected normal service?	company_open				false		0
+can i still book a meeting?	company_open				false		0
+can i use your service with online chat?	company_open				false		0
+can i use your service with video chat?	company_open				false		0
+do we have to meet virtually?	company_open				false		0
+have you closed your offices due to corona virus?	company_open				false		0
+have you closed your offices?	company_open				false		0
+how are your operating during the covid-19 pandemic?	company_open				false		0
+how can i arrange a meeting?	company_open				false		0
+how can we meet virtually?	company_open				false		0
+is it business as usual?	company_open				false		0
+is the company currently active?	company_open				false		0
+is the company currently operating?	company_open				false		0
+is the office still open?	company_open				false		0
+is video chat available?	company_open				false		0
+is your office still open?	company_open				false		0
+will the office still be open?	company_open				false		0
+will you continue operating as usual?	company_open				false		0
+will you continue operating?	company_open				false		0
+will you continue to work as usual during coronavirus?	company_open				false		0
+are people working from home?	company_wfh				false		0
+are there any key workers?	company_wfh				false		0
+are you in the office?	company_wfh				false		0
+are your people working from home right now?	company_wfh				false		0
+are your staff in the office right now?	company_wfh				false		0
+are your staff in the office?	company_wfh				false		0
+are your staff still working?	company_wfh				false		0
+are your staff working from home?	company_wfh				false		0
+can i contact your staff at the office?	company_wfh				false		0
+can i contact your staff right now?	company_wfh				false		0
+can you work from home if needed?	company_wfh				false		0
+do you have any key workers?	company_wfh				false		0
+do you have people still working?	company_wfh				false		0
+do you have the resources for working from home?	company_wfh				false		0
+do you have the resources to work from home?	company_wfh				false		0
+do you still have key workers?	company_wfh				false		0
+do your staff have the resources to work from home?	company_wfh				false		0
+does your company have the resources to work from home?	company_wfh				false		0
+how can i contact your staff?	company_wfh				false		0
+is anyone still working?	company_wfh				false		0
+where are your staff?	company_wfh				false		0
+who is available for remote meetings?	company_wfh				false		0
+who is available for virtual meetings?	company_wfh				false		0
+who is available to speak to while your office is closed?	company_wfh				false		0
+who is available while staff are working from home?	company_wfh				false		0
+who is available while working from home?	company_wfh				false		0
+who is still working?	company_wfh				false		0
+are tests available?	faq_testing				false		0
+are there tests to detect corona?	faq_testing				false		0
+can i get a test even if i don't have symptoms?	faq_testing				false		0
+can i have a test even if i don't have symptoms?	faq_testing				false		0
+can i have a test if i think i have coronavirus?	faq_testing				false		0
+can i have a test when i don't have symptoms?	faq_testing				false		0
+can i have a test?	faq_testing				false		0
+how are they testing people for covid19?	faq_testing				false		0
+how can i get tested?	faq_testing				false		0
+how do they test for covid-19?	faq_testing				false		0
+how do they test someone for covid-19?	faq_testing				false		0
+how does testing for corona work?	faq_testing				false		0
+how does testing work?	faq_testing				false		0
+i don't have symptoms, can i have a test?	faq_testing				false		0
+i think i have coronavirus, should i get a test?	faq_testing				false		0
+i think i've got it, should i get a test?	faq_testing				false		0
+is there any testing going on?	faq_testing				false		0
+when should i get a test?	faq_testing				false		0
+when will testing be available?	faq_testing				false		0
+where are test available?	faq_testing				false		0
+who are they testing for corona virus right now?	faq_testing				false		0
+who can get tested?	faq_testing				false		0
+are the supermarkets going to run out of food?	faq_supplies				false		0
+are the supermarkets going to run out of supplies?	faq_supplies				false		0
+can i go to the shops for	faq_supplies				false		0
+can i go to the shops for that?	faq_supplies				false		0
+could there be shortages?	faq_supplies				false		0
+do i need to buy anything?	faq_supplies				false		0
+do i need to buy more	faq_supplies				false		0
+do i need to buy more toilet paper	faq_supplies				false		0
+do people need to stockpile?	faq_supplies				false		0
+i need to buy	faq_supplies				false		0
+i need to buy can i go to the shops for that?	faq_supplies				false		0
+i need to buy more	faq_supplies				false		0
+i need to buy more medicine	faq_supplies				false		0
+i need to buy more soap	faq_supplies				false		0
+i'm worried about supply chains	faq_supplies				false		0
+should i stockpile?	faq_supplies				false		0
+should we be worried about food shortages?	faq_supplies				false		0
+what extra supplies to do i need	faq_supplies				false		0
+what food should i be stocking up?	faq_supplies				false		0
+what if i need more soap?	faq_supplies				false		0
+what if i run out of soap and need to buy more?	faq_supplies				false		0
+what is panic buying	faq_supplies				false		0
+what kind of food should i buy?	faq_supplies				false		0
+what should i do if the supermarkets are empty?	faq_supplies				false		0
+what should i do if there's a shortage?	faq_supplies				false		0
+what should i stock up on?	faq_supplies				false		0
+what supplies might there be a shortage of?	faq_supplies				false		0
+what supplies should i stock up on?	faq_supplies				false		0
+what things should i buy	faq_supplies				false		0
+what type of food is good for stocking up?	faq_supplies				false		0
+why are people panic-buying?	faq_supplies				false		0
+will shortages be a problem?	faq_supplies				false		0
+will supply chains be affected	faq_supplies				false		0
+are the symptoms like influenza?	faq_flu				false		0
+how does corona virus compare with a flu outbreak?	faq_flu				false		0
+how does covid-19 compare with influenza?	faq_flu				false		0
+how does it compare to a cold?	faq_flu				false		0
+how is corona different from the flu?	faq_flu				false		0
+how is covid-19 different from the flu	faq_flu				false		0
+how is this different from the flu	faq_flu				false		0
+is corona a flu?	faq_flu				false		0
+is corona the same as swine flu?	faq_flu				false		0
+is coronavirus just a bad cold?	faq_flu				false		0
+is coronavirus like influenza?	faq_flu				false		0
+is covid a kind of influenza?	faq_flu				false		0
+is covid19 a kind of influenza?	faq_flu				false		0
+is covid-19 like swine flu?	faq_flu				false		0
+is it like a cold	faq_flu				false		0
+is the virus a kind of influenza?	faq_flu				false		0
+is this caused by h1n1?	faq_flu				false		0
+is this like the h1n1 outbreak?	faq_flu				false		0
+is this like the spanish flu?	faq_flu				false		0
+is this similar to h1n1?	faq_flu				false		0
+is this similar to swine flu?	faq_flu				false		0
+isn't it just a cold?	faq_flu				false		0
+isn't it just a really bad cold?	faq_flu				false		0
+are there a lot of cases right now?	faq_howmany				false		0
+does the country have a lot of cases?	faq_howmany				false		0
+does the have a lot of cases?	faq_howmany				false		0
+have many people died due to covid-19?	faq_howmany				false		0
+how many cases have there been	faq_howmany				false		0
+how many cases of corona infection have there been?	faq_howmany				false		0
+how many deaths have there been?	faq_howmany				false		0
+how many fatalities have there been?	faq_howmany				false		0
+how many have died due to coronavirus	faq_howmany				false		0
+how many have tested positive?	faq_howmany				false		0
+how many people have been infected	faq_howmany				false		0
+how many people have tested positive	faq_howmany				false		0
+number of cases	faq_howmany				false		0
+what is the fatality number?	faq_howmany				false		0
+what is the fatality rate?	faq_howmany				false		0
+what is the number of cases	faq_howmany				false		0
+what is the number of deaths	faq_howmany				false		0
+what is the number of fatalities?	faq_howmany				false		0
+what is the number of infections?	faq_howmany				false		0
+what number have tested positive?	faq_howmany				false		0
+what number of people have been infected?	faq_howmany				false		0
+what number of people have tested positive?	faq_howmany				false		0
+are you keeping your workers safe?	company_mitigation				false		0
+are you paying your staff even if they are unwell?	company_mitigation				false		0
+do you have a business continuity plan?	company_mitigation				false		0
+do you have a disaster recovery plan?	company_mitigation				false		0
+do you have a plan for economic recovery?	company_mitigation				false		0
+how are you going to cope with coronavirus?	company_mitigation				false		0
+how are you going to cope with the pandemic?	company_mitigation				false		0
+how are you keeping staff safe?	company_mitigation				false		0
+how are you protecting your staff?	company_mitigation				false		0
+how are you protecting your workers?	company_mitigation				false		0
+how does your business plan to recover?	company_mitigation				false		0
+how is the company going to cope with covid19?	company_mitigation				false		0
+how will your business recover?	company_mitigation				false		0
+is there a continuity plan for coronavirus?	company_mitigation				false		0
+is there a disaster recovery plan?	company_mitigation				false		0
+what are you doing for business continuity?	company_mitigation				false		0
+what are you doing if people are self-isolating?	company_mitigation				false		0
+what are you doing if staff are sick?	company_mitigation				false		0
+what are you doing if staff are unwell?	company_mitigation				false		0
+what are you doing to cope with covid-19?	company_mitigation				false		0
+what are you doing to manage corona at your company?	company_mitigation				false		0
+what are your mitigation strategies for coronavirus?	company_mitigation				false		0
+what are your mitigation strategies?	company_mitigation				false		0
+what are your strategies for dealing with coronavirus as a company?	company_mitigation				false		0
+what are your strategies for the covid-19 outbreak?	company_mitigation				false		0
+what will do do if staff are sick?	company_mitigation				false		0
+what will you do if staff are unwell?	company_mitigation				false		0
+what will you do so the company can recover more quickly?	company_mitigation				false		0
+will you business recover?	company_mitigation				false		0
+are you still able to deliver goods?	company_deliveries				false		0
+are you still able to deliver products by post during the pandemic?	company_deliveries				false		0
+are you still doing deliveries during the outbreak?	company_deliveries				false		0
+can i order online during the covid-19 outbreak?	company_deliveries				false		0
+can i order online during the outbreak?	company_deliveries				false		0
+can i order your items online?	company_deliveries				false		0
+can i order your products online?	company_deliveries				false		0
+can i receive deliveries without contact?	company_deliveries				false		0
+can you deliver with zero contact?	company_deliveries				false		0
+can you do contact-free deliveries?	company_deliveries				false		0
+can you do deliveries by zero-contact post?	company_deliveries				false		0
+can you send your products in the post?	company_deliveries				false		0
+can you sent items by post?	company_deliveries				false		0
+can you still deliver goods?	company_deliveries				false		0
+do you provide deliveries to people who are isolating?	company_deliveries				false		0
+do you provide deliveries?	company_deliveries				false		0
+how does covid-19 affect home delivery services?	company_deliveries				false		0
+how will coronavirus affect your home delivery?	company_deliveries				false		0
+is corona virus affecting your delivery channels?	company_deliveries				false		0
+will covid affect your home delivery services?	company_deliveries				false		0
+can a mask protect me?	faq_masks				false		0
+can covering my face protect me?	faq_masks				false		0
+do i need to cover my face?	faq_masks				false		0
+do i need to start covering my face?	faq_masks				false		0
+do mask help?	faq_masks				false		0
+do masks help stop the spread?	faq_masks				false		0
+do masks help to stop covid 19?	faq_masks				false		0
+do masks help to stop the spread of corona?	faq_masks				false		0
+how can a mask help?	faq_masks				false		0
+should i cover my face with a mask?	faq_masks				false		0
+should i cover my face?	faq_masks				false		0
+what is the right kind of mask to use?	faq_masks				false		0
+what kind of mask should i use?	faq_masks				false		0
+what type of face-mask do i need?	faq_masks				false		0
+what type of mask should i use?	faq_masks				false		0
+who needs to use face masks?	faq_masks				false		0
+why are people using face masks?	faq_masks				false		0
+why is everyone wearing face-masks?	faq_masks				false		0
+will a mask protect me from the virus	faq_masks				false		0
+will it help to cover my face?	faq_masks				false		0
+can a virus change over time?	faq_timescale				false		0
+can covid-19 mutate over time?	faq_timescale				false		0
+can you tell me can a virus change over time?	faq_timescale				false		0
+could coronavirus come back again?	faq_timescale				false		0
+could coronavirus come back in a few years?	faq_timescale				false		0
+could coronavirus come back in the winter?	faq_timescale				false		0
+could coronavirus come back next year?	faq_timescale				false		0
+could covid19 return in the autumn?	faq_timescale				false		0
+could it be worse in winter?	faq_timescale				false		0
+could it still be a pandemic next year?	faq_timescale				false		0
+could it still be going on next year?	faq_timescale				false		0
+could this still be going on next year?	faq_timescale				false		0
+do things get better in summer?	faq_timescale				false		0
+how does a pandemic progress?	faq_timescale				false		0
+how does a viral outbreak progress?	faq_timescale				false		0
+how does an outbreak progress?	faq_timescale				false		0
+how long does a pandemic last?	faq_timescale				false		0
+how long does it take for a pandemic to end?	faq_timescale				false		0
+how long has it been a pandemic?	faq_timescale				false		0
+how long has the pandemic been going on	faq_timescale				false		0
+how long has this been going on for?	faq_timescale				false		0
+how long has this been going on?	faq_timescale				false		0
+how long will a pandemic last?	faq_timescale				false		0
+how long will the be a pandemic?	faq_timescale				false		0
+how long will the coronavirus outbreak last?	faq_timescale				false		0
+how long will this outbreak last?	faq_timescale				false		0
+how many months can we expect this to continue?	faq_timescale				false		0
+how many months can we expect this to go on?	faq_timescale				false		0
+how many months can we expect this to last?	faq_timescale				false		0
+how many months has coronavirus been going on for?	faq_timescale				false		0
+how many months has coronavirus been going on?	faq_timescale				false		0
+how many months will this continue?	faq_timescale				false		0
+how many months will this pandemic last?	faq_timescale				false		0
+how will covid-19 change over time?	faq_timescale				false		0
+how will covid-19 progress over time?	faq_timescale				false		0
+how will he outbreak progress over time?	faq_timescale				false		0
+how will the pandemic progress over time?	faq_timescale				false		0
+how will the virus change over time?	faq_timescale				false		0
+how will the virus mutate?	faq_timescale				false		0
+how will things change over time?	faq_timescale				false		0
+how will things have changes in a year?	faq_timescale				false		0
+i want to know can a virus change over time?	faq_timescale				false		0
+i want to know can covid-19 mutate over time?	faq_timescale				false		0
+i want to know how the virus will change over time?	faq_timescale				false		0
+is a virus better in summer?	faq_timescale				false		0
+is corona worse in winter?	faq_timescale				false		0
+is it worse in winter?	faq_timescale				false		0
+tell me can a virus change over time?	faq_timescale				false		0
+tell me can covid-19 mutate over time?	faq_timescale				false		0
+what will be happening in a few days	faq_timescale				false		0
+what will be happening in a months time	faq_timescale				false		0
+what will be happening in a week	faq_timescale				false		0
+what will be happening next week?	faq_timescale				false		0
+what will happen next year?	faq_timescale				false		0
+when can we go back to normal?	faq_timescale				false		0
+when will life go back to normal?	faq_timescale				false		0
+when will things go back to normal?	faq_timescale				false		0
+when will this be over?	faq_timescale				false		0
+will corona ever go away?	faq_timescale				false		0
+will it get better in summer?	faq_timescale				false		0
+will it get worse again in the autumn?	faq_timescale				false		0
+will it get worse next winter?	faq_timescale				false		0
+will the outbreak be over soon?	faq_timescale				false		0
+will the pandemic last years?	faq_timescale				false		0
+will the situation change in a few weeks?	faq_timescale				false		0
+will the situation have changed in a month?	faq_timescale				false		0
+will the virus change over time?	faq_timescale				false		0
+will the virus go away?	faq_timescale				false		0
+will things be better in the summer?	faq_timescale				false		0
+will things be different in a month?	faq_timescale				false		0
+will things be different next week?	faq_timescale				false		0
+will things improve in the spring?	faq_timescale				false		0
+will things improve in the summer?	faq_timescale				false		0
+will this continue into autumn?	faq_timescale				false		0
+will this continue into next winter?	faq_timescale				false		0
+will this continue into next year	faq_timescale				false		0
+can coronavirus spread by coughing?	faq_spread				false		0
+can coronavirus survive on skin?	faq_spread				false		0
+can covid get into my eyes?	faq_spread				false		0
+can sneezing spread coronavirus?	faq_spread				false		0
+can you catch corona from an unclean surface?	faq_spread				false		0
+can you catch coronavirus from another person?	faq_spread				false		0
+can you catch the virus from dirty surfaces?	faq_spread				false		0
+could i pass corona virus onto someone else?	faq_spread				false		0
+does coughing spread corona?	faq_spread				false		0
+does coughing spread covid-19?	faq_spread				false		0
+how can i protect myself?	faq_spread				false		0
+how contagious is it?	faq_spread				false		0
+how did corona become so widespread?	faq_spread				false		0
+how did it become so widespread?	faq_spread				false		0
+how do i catch corona?	faq_spread				false		0
+how do viruses become widespread?	faq_spread				false		0
+how do we stop people getting coronavirus?	faq_spread				false		0
+how do we stop people getting it?	faq_spread				false		0
+how do we stop people getting sick?	faq_spread				false		0
+how do you catch coronavirus	faq_spread				false		0
+how do you catch it?	faq_spread				false		0
+how does covid pass from person to person?	faq_spread				false		0
+how does covid spread from person to person?	faq_spread				false		0
+how does covid-19 spread between between?	faq_spread				false		0
+how does covid-19 spread from one person to another?	faq_spread				false		0
+how does covid-19 spread?	faq_spread				false		0
+how does the virus spread	faq_spread				false		0
+how long can the virus remain on surfaces?	faq_spread				false		0
+how long does coronavirus stay on surfaces?	faq_spread				false		0
+how long does it stay on skin?	faq_spread				false		0
+how long does the virus stay on your hands face?	faq_spread				false		0
+how long does the virus stay on your hands?	faq_spread				false		0
+how would i catch the virus from someone else?	faq_spread				false		0
+i to avoid getting covid, what should i do?	faq_spread				false		0
+is corona virus contagious?	faq_spread				false		0
+what should i do to avoid getting coronavirus?	faq_spread				false		0
+what should i do to protect myself from catching covid19?	faq_spread				false		0
+what should i do to protect myself?	faq_spread				false		0
+why can't i touch my face with my hands?	faq_spread				false		0
+why do you have to clean surfaces?	faq_spread				false		0
+why is skin-on-skin contact to be avoided?	faq_spread				false		0
+why shouldn't i touch my eyes?	faq_spread				false		0
+why shouldn't i touch my face?	faq_spread				false		0
+can i go for a walk?	faq_distancing				false		0
+can i still go outside?	faq_distancing				false		0
+can i walk somewhere?	faq_distancing				false		0
+do i have to avoid people?	faq_distancing				false		0
+do i have to stay away from people?	faq_distancing				false		0
+do i have to stay inside?	faq_distancing				false		0
+for how long do i need to stay at home?	faq_distancing				false		0
+for what reasons can i still go outside?	faq_distancing				false		0
+for what reasons can i still travel?	faq_distancing				false		0
+how do i self isolate	faq_distancing				false		0
+how do i socially distance	faq_distancing				false		0
+how does quarantine work?	faq_distancing				false		0
+how long do i have to self-isolate for?	faq_distancing				false		0
+how long do i have to stay inside	faq_distancing				false		0
+should i stay away from people?	faq_distancing				false		0
+what amount of time do i have to self-isolate for?	faq_distancing				false		0
+what are the guidelines for social-distancing	faq_distancing				false		0
+what do i have to self-isolate for?	faq_distancing				false		0
+what if i want to go for a walk	faq_distancing				false		0
+what is essential travel?	faq_distancing				false		0
+what is quarantine?	faq_distancing				false		0
+what is self-isolation	faq_distancing				false		0
+what is social distancing	faq_distancing				false		0
+when should i stay in isolation?	faq_distancing				false		0
+who doesn't need to stay at home?	faq_distancing				false		0
+who needs to stay at home?	faq_distancing				false		0
+why do i have to stay inside?	faq_distancing				false		0
+why does social distancing help?	faq_distancing				false		0
+why should i isolate	faq_distancing				false		0
+can soap help keep the virus off my hands?	faq_handwashing				false		0
+can soap help with corona virus?	faq_handwashing				false		0
+do i need to use hand sanitiser?	faq_handwashing				false		0
+how does hand-sanitiser work?	faq_handwashing				false		0
+how does soap help keep the virus away?	faq_handwashing				false		0
+how long should i hand-wash for?	faq_handwashing				false		0
+how often should i wash my hands	faq_handwashing				false		0
+how should i wash my hands	faq_handwashing				false		0
+should i use soap or hand sanitiser?	faq_handwashing				false		0
+what amount of alcohol is needed in hand gel?	faq_handwashing				false		0
+what are good methods for handwashing?	faq_handwashing				false		0
+what are the handwashing techniques	faq_handwashing				false		0
+what are the hand-washing techniques?	faq_handwashing				false		0
+what are the instructions for hand-washing	faq_handwashing				false		0
+what are the techniques for hand washing?	faq_handwashing				false		0
+what is important about hand-washing?	faq_handwashing				false		0
+what is the guidance for handwashing	faq_handwashing				false		0
+what strength percentage of alcohol is required for hand gel to work?	faq_handwashing				false		0
+when should i wash my hands	faq_handwashing				false		0
+why do i need to use soap?	faq_handwashing				false		0
+why do i need to wash my hands	faq_handwashing				false		0
+why does soap help with containing covid 19?	faq_handwashing				false		0
+can we prevent spikes in the infection rate?	faq_curve				false		0
+can we reduce the number of cases?	faq_curve				false		0
+how do we flatten the curve	faq_curve				false		0
+how do we prevent spikes in the number of infected people?	faq_curve				false		0
+how do we reduce the number of cases?	faq_curve				false		0
+how does health care capacity relate to the curve?	faq_curve				false		0
+how does healthcare capacity relate to the curve	faq_curve				false		0
+how fast can it spread?	faq_curve				false		0
+how fast is covid-19 spreading?	faq_curve				false		0
+how quickly can it spread?	faq_curve				false		0
+how quickly could corona virus spread?	faq_curve				false		0
+how quickly is it spreading?	faq_curve				false		0
+how quickly will it spread?	faq_curve				false		0
+reducing the frequency of cases	faq_curve				false		0
+slow the rate of infection	faq_curve				false		0
+what are spikes	faq_curve				false		0
+what does a spike in cases look like?	faq_curve				false		0
+what does it mean the flatten the curve	faq_curve				false		0
+what happens when there's a surge in cases?	faq_curve				false		0
+what happens when you reduce the number of cases?	faq_curve				false		0
+what is a fast spread?	faq_curve				false		0
+what is a slow spread?	faq_curve				false		0
+what is flattening the curve	faq_curve				false		0
+what is healthcare system capacity	faq_curve				false		0
+what is infection rate	faq_curve				false		0
+what is the curve of cases	faq_curve				false		0
+what is the difference between a fast spread and a slow spread?	faq_curve				false		0
+what is the difference between and fast and slow pandemic?	faq_curve				false		0
+when do spikes in infection rate occur?	faq_curve				false		0
+why are there spikes in the frequency of cases	faq_curve				false		0
+why do infections suddenly spike	faq_curve				false		0
+why do you need to slow the infection	faq_curve				false		0
+can you tell me what does an outbreak mean?	faq_whatisit				false		0
+can you tell me what is corona?	faq_whatisit				false		0
+can you tell me what is covid-19?	faq_whatisit				false		0
+how are viruses different from bacteria?	faq_whatisit				false		0
+how are viruses structured?	faq_whatisit				false		0
+how do viruses behave?	faq_whatisit				false		0
+how do viruses work?	faq_whatisit				false		0
+how does a pandemic work?	faq_whatisit				false		0
+how does an epidemic work?	faq_whatisit				false		0
+how does covid work?	faq_whatisit				false		0
+how is a virus structured?	faq_whatisit				false		0
+i want to know what are corona viruses?	faq_whatisit				false		0
+i want to know what does an outbreak mean?	faq_whatisit				false		0
+i want to know what is corona?	faq_whatisit				false		0
+i want to know what is covid-19?	faq_whatisit				false		0
+is covid 19 a virus?	faq_whatisit				false		0
+is covid a virus?	faq_whatisit				false		0
+is covid19 a virus?	faq_whatisit				false		0
+is covid-19 a virus?	faq_whatisit				false		0
+is it a virus?	faq_whatisit				false		0
+tell me what are corona viruses?	faq_whatisit				false		0
+tell me what does an outbreak mean?	faq_whatisit				false		0
+tell me what is corona?	faq_whatisit				false		0
+tell me what is covid-19	faq_whatisit				false		0
+what are corona viruses?	faq_whatisit				false		0
+what are viruses?	faq_whatisit				false		0
+what do they mean by "pandemic"	faq_whatisit				false		0
+what do viruses look like?	faq_whatisit				false		0
+what does "pandemic" mean?	faq_whatisit				false		0
+what does a virus look like?	faq_whatisit				false		0
+what does an outbreak mean?	faq_whatisit				false		0
+what does covid mean?	faq_whatisit				false		0
+what does covid stand for?	faq_whatisit				false		0
+what does covid19 mean?	faq_whatisit				false		0
+what does covid-19 mean?	faq_whatisit				false		0
+what does covid19 stand for?	faq_whatisit				false		0
+what does outbreak mean?	faq_whatisit				false		0
+what is a pandemic?	faq_whatisit				false		0
+what is a virus?	faq_whatisit				false		0
+what is an epidemic?	faq_whatisit				false		0
+what is corona?	faq_whatisit				false		0
+what is covid-19	faq_whatisit				false		0
+what is pandemic	faq_whatisit				false		0
+what is the corona virus?	faq_whatisit				false		0
+what is the difference between and epidemic and a pandemic?	faq_whatisit				false		0
+what is the full name of coronavirus?	faq_whatisit				false		0
+what is the full name of covid-19?	faq_whatisit				false		0
+what is the full name of the virus?	faq_whatisit				false		0
+what is the structure of coronavirus	faq_whatisit				false		0
+what is the structure of coronavirus?	faq_whatisit				false		0
+what is the structure of covid 19	faq_whatisit				false		0
+what is the structure of covid-19	faq_whatisit				false		0
+what is the structure of covid19?	faq_whatisit				false		0
+what kind of disease is corona?	faq_whatisit				false		0
+what kind of illness is corona virus?	faq_whatisit				false		0
+what kind of viruses are corona viruses?	faq_whatisit				false		0
+why is it called corona virus?	faq_whatisit				false		0
+how did it start?	faq_origin				false		0
+how did the covid outbreak start?	faq_origin				false		0
+how did the outbreak start?	faq_origin				false		0
+what caused corona virus?	faq_origin				false		0
+what caused covid-19	faq_origin				false		0
+what caused covid-19 to happen?	faq_origin				false		0
+what caused the corona outbreak?	faq_origin				false		0
+when did it start?	faq_origin				false		0
+when did the outbreak start?	faq_origin				false		0
+when was corona virus detected?	faq_origin				false		0
+when was coronavirus identified?	faq_origin				false		0
+when was it detected?	faq_origin				false		0
+where did it come from?	faq_origin				false		0
+where did the coronavirus come from?	faq_origin				false		0
+where was the virus first detected?	faq_origin				false		0
+why did corona happen?	faq_origin				false		0
+why did this happen?	faq_origin				false		0
